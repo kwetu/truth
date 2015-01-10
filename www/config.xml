@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.radio.kwetu"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <name>91.5 hits fm</name>
+
+    <description>
+        A radio app for streaming radio and news from kenyas leading hit radio station
+    </description>
+
+    <author href="https://kwetudesign.co.ke" email="kwetudesign@gmail.com">
+        Antony Muthii 
+    </author>
+    
+    <icon src="icon.png" />
+
+    <access origin="*" />
+    
+    
+    <gap:splash src="splash.png" />
+    <gap:platform name="ios"/>
+    <gap:platform name="android" />
+
+    <gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
+
+</widget>
