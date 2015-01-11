@@ -5,7 +5,7 @@
         versionCode = "10" 
         version     = "1.0.0" >
 
-    <name>91.5 hits fm</name>
+    <name>Truth FM</name>
 
     <description>
         A radio app for streaming radio and news from kenyas leading hit radio station
@@ -23,6 +23,7 @@
     <gap:splash src="splash.png" />
     <gap:platform name="ios"/>
     <gap:platform name="android" />
+	<gap:platform name="winphone" />
 
     <gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
 
